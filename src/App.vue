@@ -1,9 +1,9 @@
 <script setup>
-import Todo from "./components/Todo.vue";
+import GettingDataWithFetch from "./components/GettingDataWithFetch.vue";
 </script>
 
 <template>
-  <Todo />
+  <GettingDataWithFetch />
 </template>
 
 <style scoped></style>
