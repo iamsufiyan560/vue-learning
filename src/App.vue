@@ -1,9 +1,9 @@
 <script setup>
-import GettingDataWithFetch from "./components/GettingDataWithFetch.vue";
+import IterationsComponent from "./components/IterationsComponent.vue";
 </script>
 
 <template>
-  <GettingDataWithFetch />
+  <IterationsComponent />
 </template>
 
 <style scoped></style>
