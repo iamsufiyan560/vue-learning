@@ -1,5 +1,8 @@
 <script setup>
 import BasicComponent from "./Watchers/BasicComponent.vue";
+import MultipleSources from "./Watchers/MultipleSources.vue";
+import ReactiveObject from "./Watchers/ReactiveObject.vue";
+import UsingGetterFunction from "./Watchers/UsingGetterFunction.vue";
 
 // import LifeCycleHooks from "./components/LifeCycleHooks.vue";
 
@@ -146,7 +149,7 @@ import BasicComponent from "./Watchers/BasicComponent.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <BasicComponent></BasicComponent>
+  <MultipleSources></MultipleSources>
 </template>
 
 <style scoped></style>
