@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.vscode
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/vue_js/FileContentIndex/read.lock
+.vs/vue_js/FileContentIndex/68198f24-7980-437e-9204-4b7f9d340566.vsidx
+.vs/vue_js/v17/.wsuo
+.vs
+.vscode
