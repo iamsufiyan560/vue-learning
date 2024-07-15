@@ -1,5 +1,5 @@
 <script setup>
-import ToggleFriends from "./Async-components/ToggleFriends.vue";
+import CustomDirectives from "./components/CustomDirectives.vue";
 
 // import LifeCycleHooks from "./components/LifeCycleHooks.vue";
 
@@ -146,7 +146,7 @@ import ToggleFriends from "./Async-components/ToggleFriends.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <ToggleFriends></ToggleFriends>
+  <CustomDirectives></CustomDirectives>
 </template>
 
 <style scoped></style>
