@@ -1,5 +1,5 @@
 <script setup>
-import CustomDirectives from "./components/CustomDirectives.vue";
+import Calculator from "./Projects/Calculator.vue";
 
 // import LifeCycleHooks from "./components/LifeCycleHooks.vue";
 
@@ -146,7 +146,7 @@ import CustomDirectives from "./components/CustomDirectives.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <CustomDirectives></CustomDirectives>
+  <Calculator></Calculator>
 </template>
 
 <style scoped></style>
