@@ -1,5 +1,7 @@
 <script setup>
+import AccordionComponent from "./Projects/AccordionComponent.vue";
 import Calculator from "./Projects/Calculator.vue";
+import FormValidation from "./Projects/FormValidation.vue";
 
 // import LifeCycleHooks from "./components/LifeCycleHooks.vue";
 
@@ -146,7 +148,7 @@ import Calculator from "./Projects/Calculator.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <Calculator></Calculator>
+  <FormValidation></FormValidation>
 </template>
 
 <style scoped></style>
