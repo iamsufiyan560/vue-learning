@@ -2,6 +2,7 @@
 import AccordionComponent from "./Projects/AccordionComponent.vue";
 import Calculator from "./Projects/Calculator.vue";
 import FormValidation from "./Projects/FormValidation.vue";
+import PasswordGenerator from "./Projects/PasswordGenerator.vue";
 
 // import LifeCycleHooks from "./components/LifeCycleHooks.vue";
 
@@ -148,7 +149,7 @@ import FormValidation from "./Projects/FormValidation.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <FormValidation></FormValidation>
+  <PasswordGenerator></PasswordGenerator>
 </template>
 
 <style scoped></style>
