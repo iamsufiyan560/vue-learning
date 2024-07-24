@@ -1,6 +1,6 @@
 <script setup>
 import AccordionComponent from "./Projects/AccordionComponent.vue";
-import Calculator from "./Projects/Calculator.vue";
+import Jokes from "./Projects/Jokes.vue";
 import FormValidation from "./Projects/FormValidation.vue";
 import ProgressSteps from "./Projects/ProgressSteps.vue";
 
@@ -149,7 +149,7 @@ import ProgressSteps from "./Projects/ProgressSteps.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <ProgressSteps></ProgressSteps>
+  <jokes></jokes>
 </template>
 
 <style scoped></style>
