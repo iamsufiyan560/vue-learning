@@ -3,6 +3,8 @@ import AccordionComponent from "./Projects/AccordionComponent.vue";
 import Jokes from "./Projects/Jokes.vue";
 import FormValidation from "./Projects/FormValidation.vue";
 import ProgressSteps from "./Projects/ProgressSteps.vue";
+import GithubUsersSearch from "./Projects/GithubUsersSearch.vue";
+import WikiComponent from "./Projects/WikiComponent.vue";
 
 // import LifeCycleHooks from "./components/LifeCycleHooks.vue";
 
@@ -149,7 +151,7 @@ import ProgressSteps from "./Projects/ProgressSteps.vue";
     {{ showHide ? "hide" : "show" }} main Component
   </button> -->
 
-  <jokes></jokes>
+  <WikiComponent></WikiComponent>
 </template>
 
 <style scoped></style>
